@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="اسلامي"
+        android:fontFamily="@font/regular"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".2"
+        android:adjustViewBounds="true"
+        android:src="@drawable/header_sebha"
+        app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text"
+        android:layout_marginTop="20dp"
+        android:id="@+id/header_sebha"
+        />
+    <TextView
+        android:id="@+id/tasbeeh_Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:text="عدد التسبيحات"
+        android:fontFamily="@font/regular"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/header_sebha"
+        />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/tasbeeh_Number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/btncolor"
+        android:id="@+id/tasbeeh_counter"
+        />
+    <Button
+        android:id="@+id/zekr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+android:backgroundTint="@color/btncolor"
+        android:text="سبحان الله"
+        android:fontFamily="@font/regular"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tasbeeh_counter"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

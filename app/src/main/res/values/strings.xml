@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">testFragment</string>
+    <string name="quraan">quraan</string>
+    <string name="tasbeeh">tasbeeh</string>
+    <string name="radio">radio</string>
+    <string name="hadrrth">hadrrth</string>
+</resources>
